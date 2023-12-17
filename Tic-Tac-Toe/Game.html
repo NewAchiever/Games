@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js"></script>
+</head>
+<body>
+    
+    <div class="tic-tac-toe">
+        <div class="win_bar" id="win_bar"></div>
+        <div class="box" id="11" onclick="play(this.id)"><img src="" id="11_img"  alt="" class="O_X_img"></div>
+        <div class="box" id="12" onclick="play(this.id)"><img src="" id="12_img" alt="" class="O_X_img"></div>
+        <div class="box" id="13" onclick="play(this.id)"><img src="" id="13_img" alt="" class="O_X_img"></div>
+    
+        <div class="box" id="21" onclick="play(this.id)"><img src="" id="21_img" alt="" class="O_X_img"></div>
+        <div class="box" id="22" onclick="play(this.id)"><img src="" id="22_img" alt="" class="O_X_img"></div>
+        <div class="box" id="23" onclick="play(this.id)"><img src="" id="23_img" alt="" class="O_X_img"></div>
+    
+        <div class="box" id="31" onclick="play(this.id)"><img src="" id="31_img" alt="" class="O_X_img"></div>
+        <div class="box" id="32" onclick="play(this.id)"><img src="" id="32_img" alt="" class="O_X_img"></div>
+        <div class="box" id="33" onclick="play(this.id)"><img src="" id="33_img" alt="" class="O_X_img"></div>
+        
+    </div>
+    <div class="turnBox">
+        <img src="Images/restart.jpg" class="restartButton" onclick="gameRestart()" id="restartButton" alt="">
+        <span id="turnsMsg">IT'S O TURN</span>
+    </div>
+</body>
+</html>

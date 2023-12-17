@@ -1,0 +1,80 @@
+body{
+   background-color: rgb(0, 0, 0); 
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   flex-direction: column;
+   height: 650px; 
+}
+
+
+
+.tic-tac-toe{
+    height: 400px;
+    width: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+}
+
+
+.box{
+    background-color: aqua;
+    height: 31.5%;
+    width: 31.5%;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+}
+
+.box:hover{
+    background-color: rgb(177, 255, 255)
+}
+
+.O_X_img{
+    height: 100%;
+    width: 100%;
+    display: none;
+}
+
+.turnBox{
+    width: 400px;
+    height: 100px;
+    background-color: rgb(255, 166, 0);
+    color: black;
+    font-size: 32px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-style: calibri;
+   
+}
+
+.win_bar{
+    position: absolute;
+    height:4px;
+    width: 400px;
+    background-color: rgb(214, 49, 49);
+    display: none;
+    border-radius: 5px;
+    border: 1px solid white;
+       
+}
+
+.restartButton{
+    height: 40px;
+    width: 40px;
+}
+
+.restartButton:hover{
+    height: 45px;
+    width: 45px;
+}
+
+
+
